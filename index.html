@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <a href="Ayathosseinpour112"></a>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
     <title>Ayat Hosseinpour_details</title>
     <style>
         body {
-            background: radial-gradient(rgb(177, 98, 98),rgb(10, 10, 17));
+            background: radial-gradient(rgb(133, 75, 75),rgb(10, 10, 17));
             border-style: solid;
             border-color: rgb(77, 67, 67);
             border-width: 5px;
@@ -98,10 +99,64 @@
             text-align: center;
             font-family: serif;
         }
+        button {
+            font-family: justify;
+            border: 5px lightblue;
+            font-size: 20px;
+            width: 100px;
+            height: 30px;
+            border-radius:0.5rem;
+            transition-property: width, height;
+            transition-duration: 2s;
+        }
+        button:hover {
+            width: 130px;
+            height: 50px;
+            background-color: red;
+        }
+        .qu {
+            font-family: aria;
+            font-size: 24px;
+            color: aqua;
+            
+        }
+        form {
+            text-align:center;
+            color: rgb(121, 186, 216);
+            font-family: justify;
+            font-size: 20px;
+        } 
+        .qq {
+            color: rgb(209, 214, 219);
+            font-family: Ari;
+            font-size: 18px;
+            text-align: center;
+
+        }
+        .think {
+            font-size: 20px;
+        }
+        .submit {
+            font-family: justify;
+            border: 5px lightblue;
+            font-size: 20px;
+            width: 100px;
+            height: 30px;
+            border-radius:0.5rem;
+            transition-property: width, height;
+            transition-duration: 2s;
+        }
+        .submit:hover {
+            width: 130px;
+            height: 50px;
+            background-color: green;
+        }
+        
     </style>
 </head>
 
 <body>
+    
     <div class="continer">
         <div class="a">
             <div class="b">
@@ -114,10 +169,13 @@
             </div>
         </div>
     </div>
+    <video src="./Haydeh - Sal.mp3" controls autoplay></video>
+    <br />
+    <br />
 
-    <p class="hhh">my website-></p> <a
+    <p class="hhh">my website-></p> <button><a
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjJ7Z_oG4SZAjOHGlmEo4sWEYs3jHcdIB04g&s"
-        title="پشیمون نمیشی">اینجا رو بزن</a>
+        title="پشیمون نمیشی">click here</a></button>
     <br>
     <br>
     <h1>Biography of Ayat Hossein Pour</h1>
@@ -131,7 +189,7 @@
 
     <p>He started studying in a small school and spent his school years with not very good grades, but according to
         himself (he has not yet renewed).
-        Let's go. After spending 12 years of school, he received his diploma, but unfortunately he did not strive for
+        Let's go. After spending 12 years of school, he received his diploma, but because of the Financial situation he couldn't strive for
         higher qualifications and success.</p>
     <br>
     <h2>3. Marriage</h2>
@@ -149,6 +207,41 @@
     <br>
 
     <br>
+
+    <form>
+         <strong class="qu">Please answer these questions</strong>
+         <br />
+         <hr />
+            
+        <p class="qq">1.Which year did he born?</p>
+         <input name="birth" type="radio" id="birth">
+         <label name="birth" for="birth">1349</label>
+        <br />
+                  <input name="birth" type="radio" id="birth">
+         <label name="birth" for="birth">1357</label>
+         <br />
+                  <input name="birth" type="radio" id="birth">
+         <label name="birth" for="birth">1351</label>
+         <hr />
+         <p class="qq">2.What has he done between 20s to 30s?</p>
+         <input name="done" type="radio" id="done">
+         <label id="done" name="done">he was in univercity</label>
+         <br />
+                  <input name="done" type="radio" id="done">
+         <label id="done" name="done">Not mentioned in the text</label>
+         <br />
+                  <input name="done" type="radio" id="done">
+         <label id="done" name="done">He got his Ph.D</label>
+         <hr />
+         <p>what do you think now?</p>
+         <br />
+         <form action="./files.txt" method="POST">
+<textarea name="message" placeholder="I think it was..."></textarea>
+<br>
+<input type="submit" value="send" class="submit">
+</form>
+
+    </form>
 
     <h1>GOOD BYE GUYS</h1>
 
